@@ -1,1 +1,151 @@
-test
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  width: auto;
+  background-color: #829985;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin: auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav {
+  width: auto;
+}
+.nav-item {
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 50px;
+  padding: 20px 55px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.nav-list {
+  max-width: 1440px;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.nav-item a {
+  color: white;
+  transition: color 0.7s;
+}
+.nav-item a:hover {
+  color: #4d2323;
+}
+
+.first_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 15px solid #d7d1c9;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin: auto;
+  width: auto;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.name {
+  font-size: 40px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 300;
+  border-bottom: 2px solid #829985;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+}
+
+.main_section {
+  display: inline-block;
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin: auto;
+  width: 45%;
+  letter-spacing: 2px;
+  line-height: 2;
+  vertical-align: top;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #829985;
+  border-bottom: 2px solid #829985;
+}
+
+.footer {
+  background-color: #829985;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-container {
+  width: 1440px;
+  height: 70px;
+  color: white;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.github-name {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.rss {
+  background-image: url(assets/img/rs_school_js.svg);
+  width: 100px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
